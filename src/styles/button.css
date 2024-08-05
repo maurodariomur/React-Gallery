@@ -1,0 +1,30 @@
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .init {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición para la animación */
+  }
+  
+  .init:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón */
+  }
+  
+  .init:active {
+    transform: scale(0.95); /* Efecto de pulsación */
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
